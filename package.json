@@ -1,0 +1,29 @@
+{
+  "name": "firstblog_nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bbqbug/nodejs.git"
+  },
+  "keywords": [
+    "firstblog"
+  ],
+  "author": "bbqbug",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bbqbug/nodejs/issues"
+  },
+  "homepage": "https://github.com/bbqbug/nodejs#readme",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
